@@ -1,4 +1,5 @@
 Run the app:
+  - open terminal/command prompt on currencyConvertion_ibrahim folder
   - cd server
   - npm install
   - npm start
