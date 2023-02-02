@@ -16,6 +16,7 @@ function CurrencyInputs(props){
         </div>
     )
 }
+//defining proptypes
 CurrencyInputs.prototype = {
     amount : PropTypes.number.isRequired,
     currency: PropTypes.string.isRequired,

@@ -7,7 +7,7 @@ function HistoryTable (){
 
     const [savedHistory, setSavedhistory]=useState([])
     
-
+    //fetching data from db and save it to the savedhistory var
     useEffect(()=>{
         async function fetchData() {
         await axios.get('http://localhost:4000/savedentries').then((res)=>{
